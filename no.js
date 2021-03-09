@@ -1,5 +1,5 @@
 
-async function run() {
+async2 function run() {
       return new Promise((res, rej) => {
             setTimeout(() => {
                   console.log(new Date())
@@ -8,7 +8,7 @@ async function run() {
 
       })
 }
-(async function () {
+(async1 function () {
       await run();
       await run();
 })();
